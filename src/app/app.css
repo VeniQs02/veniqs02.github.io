@@ -34,7 +34,7 @@ main {
 }
 
 jewel-case{
-  margin: 10px;
+  margin: 30px 10px 10px;
 }
 
 @media screen and (min-height: 850px) {

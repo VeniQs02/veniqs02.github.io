@@ -5,10 +5,11 @@ import {BottomSection} from './components/bottom-section/bottom-section';
 import {FooterSection} from './components/footer/footer-section.component';
 import {TranslateService} from '@ngx-translate/core';
 import {Toast} from './components/toast/toast';
+import {ShowcaseOverlay} from './components/showcase-overlay/showcase-overlay';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, JewelCase, BottomSection, FooterSection, Toast],
+  imports: [RouterOutlet, JewelCase, BottomSection, FooterSection, Toast, ShowcaseOverlay],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
