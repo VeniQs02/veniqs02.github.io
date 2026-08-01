@@ -1,4 +1,4 @@
-div{
+.showcase-overlay {
   z-index: 1000;
   position: fixed;
   width: 100%;
@@ -6,15 +6,48 @@ div{
   display: flex;
   justify-content: center;
 }
-p{
+
+.showcase-overlay-text {
   font-size: 1.8rem;
   padding: 8px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
 }
-p:hover{
+
+.showcase-overlay-text:hover {
   color: white;
   cursor: pointer;
 }
-span{
+
+.showcase-overlay-text span {
   color: white;
+  animation: text-blink 0.4s infinite alternate;
+}
+
+.showcase-overlay-text:hover span {
+  animation: none;
+  color: white;
+}
+
+.showcase-screen {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden{
+  display: none;
+}
+
+@keyframes text-blink {
+  0%, 49.999% {
+    color: white;
+  }
+  50%, 100% {
+    color: #ffc700;
+  }
 }

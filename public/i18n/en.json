@@ -38,5 +38,10 @@
     "copyEmail": "copy email",
     "goToLinkedIn": "go to linkedin",
     "goToGithub": "go to github"
+  },
+  "showcaseOverlay": {
+    "showcaseOverlayText1": "Press",
+    "showcaseOverlayText2": "DELETE",
+    "showcaseOverlayText3": "to display my work!"
   }
 }

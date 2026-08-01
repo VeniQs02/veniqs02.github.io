@@ -1,3 +1,9 @@
-<div>
-  <p>Press<span> END </span>to display my work!</p>
+<div class="showcase-overlay">
+  <p (click)="onOverlayTextClick()" class="showcase-overlay-text">
+    {{'showcaseOverlay.showcaseOverlayText1' | translate}} <span> {{'showcaseOverlay.showcaseOverlayText2' | translate}}  </span> {{'showcaseOverlay.showcaseOverlayText3' | translate}}
+  </p>
+</div>
+
+<div class="showcase-screen" [ngClass]="{hidden: !isOverlayVisible}">
+  <showcase-screen/>
 </div>
