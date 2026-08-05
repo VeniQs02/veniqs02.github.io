@@ -11,7 +11,7 @@ The project is a web application designed to showcase my work and skills.
 
 **Client:** Angular 21, NPM
 
-**Additionaly:** GoogleFonts, Coolors, WebStorm, GitHub, Ngx-translate, Remix Icon
+**Additionaly:** GoogleFonts, Coolors, WebStorm, GitHub, Ngx-translate, Remix Icon, Asciiart.eu, Ascii.co.uk
 
 
 ## Usage/Examples
