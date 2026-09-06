@@ -1,9 +1,9 @@
 {
   "tracklist": {
     "text": {
-      "9bits": "9bits (ft. mobile junior dev)",
+      "9bits": "9bits (ft. mobile developer)",
       "bachelorsThesis": "bachelors thesis defence",
-      "nekken": "nekken (ft. frontend intern)",
+      "nekken": "nekken (ft. frontend developer)",
       "brandbo": "brandbo (ft. graphic designer & video editor)",
       "uwb": "uwb computer science",
       "pogotowieKomputerowe": "pogotowie komputerowe (ft. helpdesk)",
@@ -40,8 +40,29 @@
     "goToGithub": "go to github"
   },
   "showcaseOverlay": {
-    "showcaseOverlayText1": "Press",
-    "showcaseOverlayText2": "DELETE",
-    "showcaseOverlayText3": "to display my work!"
+    "text1": "Press",
+    "text2": "DELETE",
+    "text31": "to display my work!",
+    "text32": "to hide my work!"
+  },
+  "showcaseDescription": {
+    "angularText1": "During my studies I managed to get a one-month internship at Nekken. Once I became familiar with the project, I started implementing new functionalities to an Angular CRM webpage.",
+    "angularText2": "Since then Angular has become my primary web framework, which I used in every project since. This webpage is made in Angular, just as my bachelor's thesis ",
+    "angularText3": ".",
+    "javaText1": "Java has been with me since the beginning of my studies - love at the first sight. Whenever we were given a new programming assignment, our professors heard \"can we do it in Java?\"",
+    "javaText2": "parallel programming",
+    "javaText3": "design patterns",
+    "javaText4": "API interfaces",
+    "javaText5": "algorithms and computational methods",
+    "javaText6": "computer graphics and image processing",
+    "javaText7": "Whenever possible, me and my fellow enthusiasts, we chose Java. It's the same story with my bachelor's thesis ",
+    "javaText8": ", whose Backend is built with Spring.",
+    "androidText1": "During 2 years of working as an Android Developer at 9bits I had an opportunity to be a part of a team developing an app for",
+    "androidText2": ". I've worked mainly with XML, Java and Kotlin, gaining experience in creating and maintaining larger, legacy, production-ready applications. Many elements that are currently in the Android app were created by me.",
+    "androidText3": "I also worked on international projects, where fluent english language was the key to good communication. Examples of such projects are: ",
+    "androidText4": " and ",
+    "androidText5": ".",
+    "androidText6": "In terms of a more modern approach - I'm learning Jetpack Compose. A demo of my journey is my app called ",
+    "androidText7": "for a well-known Spotify platform."
   }
 }

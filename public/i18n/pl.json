@@ -1,9 +1,9 @@
 {
   "tracklist": {
     "text": {
-      "9bits": "9bits (ft. mobile junior dev)",
+      "9bits": "9bits (ft. mobile developer)",
       "bachelorsThesis": "obrona pracy licencjackiej",
-      "nekken": "nekken (ft. frontend stażysta)",
+      "nekken": "nekken (ft. frontend developer)",
       "brandbo": "brandbo (ft. grafik montażysta)",
       "uwb": "uwb informatyka",
       "pogotowieKomputerowe": "pogotowie komputerowe (ft.serwisant sprzętu)",
@@ -40,8 +40,29 @@
     "goToGithub": "otwórz github"
   },
   "showcaseOverlay": {
-    "showcaseOverlayText1": "Naciśnij",
-    "showcaseOverlayText2": "DELETE",
-    "showcaseOverlayText3": "aby wyświetlić moje prace!"
+    "text1": "Naciśnij",
+    "text2": "DELETE",
+    "text31": "aby wyświetlić mój dorobek!",
+    "text32": "aby schować mój dorobek!"
+  },
+  "showcaseDescription": {
+    "angularText1": "W trakcie studiów udało mi się wziąć udział w miesięcznym stażu w firmie Nekken. Po zaznajomieniu się z projektem, zacząłem dodawać nowe funkcjonalności do strony CRM klienta opartej na Angularze.",
+    "angularText2": "Od tamtego czasu uznałem, że Angular będzie moim głównym frameworkiem webowym, w którym tworzyłem kolejne projekty frontendowe. Ta strona jest stworzona w Angularze, tak samo jak moja praca licencjacka ",
+    "angularText3": ".",
+    "javaText1": "Java jest ze mną od samego początku studiów - od razu złapałem bakcyla. Jak tylko pojawiało się nowe wyzwanie na zajęciach, nasi profesorowie od razu słyszeli pytanie \"Czy można zrobić to w Javie?\".",
+    "javaText2": "wielowątkowość",
+    "javaText3": "wzorce projektowe",
+    "javaText4": "interfejsy API",
+    "javaText5": "algorytmy i metody obliczeniowe",
+    "javaText6": "grafika komputerowa i przetwarzanie obrazów",
+    "javaText7": "Wszystko, co dało się zrobić, razem z kilkoma innymi zapaleńcami realizowaliśmy w Javie. Nie inaczej jest z moją pracą licencjacką ",
+    "javaText8": ", którego Backend jest napisany w Springu.",
+    "androidText1": "Przez 2 lata pracy jako Android Developer w firmie 9bits miałem okazję uczestniczyć w rozwoju aplikacji",
+    "androidText2": ". Pracowałem głównie z XML'em, Javą i Kotlinem, zdobywając doświadczenie w utrzymaniu i rozwijaniu legacy apek produkcyjnych. Wiele elementów obecnie znajdujących się w aplikacji Android są mojego autorstwa.  ",
+    "androidText3": "W pracy miałem też styczność z międzynarodowymi projektami, w których płynny angielski był kluczem do sprawnej komunikacji. Przykładami takich projektów są:  ",
+    "androidText4": " oraz ",
+    "androidText5": ".",
+    "androidText6": "W ramach nowoczesnego podejścia do mobile - uczę się Jetpack Compose, czego demonstracją jest moja aplikacja ",
+    "androidText7": "do popularnego serwisu Spotify."
   }
 }

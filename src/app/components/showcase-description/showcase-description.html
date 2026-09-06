@@ -1,0 +1,81 @@
+@if(selectedDescription != ''){
+  <div class="showcase-description">
+    @if(selectedDescription == 'angular'){
+      <p>
+        {{ 'showcaseDescription.angularText1' | translate }}
+        <br><br>
+        {{ 'showcaseDescription.angularText2' | translate }}
+        <a href="https://github.com/VeniQs02/pep.net-web-app" target="_blank"><strong>pep.net</strong></a>{{ 'showcaseDescription.angularText3' | translate }}
+      </p>
+      <pre>
+8b,dPPYba,   ,adPPYb,d8
+88P'   `"8a a8"    `Y88
+88       88 8b       88
+88       88 "8a,   ,d88
+88       88  `"YbbdP"Y8
+             aa,    ,88
+              "Y8bbdP"
+      </pre>
+    }
+    @else if (selectedDescription == 'java') {
+      <p>
+        {{ 'showcaseDescription.javaText1' | translate }} <br>
+        <br> - {{ 'showcaseDescription.javaText2' | translate }}
+        <br> - {{ 'showcaseDescription.javaText3' | translate }}
+        <br> - {{ 'showcaseDescription.javaText4' | translate }}
+        <br> - {{ 'showcaseDescription.javaText5' | translate }}
+        <br> - {{ 'showcaseDescription.javaText6' | translate }}
+        <br> <br> {{ 'showcaseDescription.javaText7' | translate }}
+        <a href="https://github.com/VeniQs02/pep.net-web-app" target="_blank"><strong>pep.net</strong></a>{{ 'showcaseDescription.javaText8' | translate }}
+      </p>
+      <pre>
+        ⠀⠀⠀⣠⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⠟⠀⣀⣠⠄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⣶⣿⠟⠁⢠⣾⠋⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠹⣿⡇⠀⠀⠸⣿⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠙⠷⡀⠀⠀⢹⠗⠀⠀⠀⠀⠀⠀
+⠀⠀⢀⣤⣴⡖⠒⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠒⢶⣄
+⠀⠀⠈⠙⢛⣻⠿⠿⠿⠟⠛⠛⠛⠋⠉⠀⠀⠀⣸⡿
+⠀⠀⠀⠀⠛⠿⣷⣶⣶⣶⣶⣾⠿⠗⠂⠀⢀⠴⠛⠁
+⠀⠀⠀⠀⠀⢰⣿⣦⣤⣤⣤⣴⣶⣶⠄⠀⠀⠀⠀⠀
+⣀⣤⡤⠄⠀⠀⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⢀⡀⠀⠀
+⠻⣿⣦⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣠⣴⠾⠃⠀⢀
+⠀⠀⠈⠉⠛⠛⠛⠛⠛⠛⠛⠛⠋⠉⠁⠀⣀⣤⡶⠋
+⠀⠀⠀⠀⠐⠒⠀⠠⠤⠤⠤⠶⠶⠚⠛⠛⠉⠀⠀⠀
+      </pre>
+    }
+    @else if (selectedDescription == 'android') {
+      <p>
+        {{ 'showcaseDescription.androidText1' | translate }}
+        <a href="https://play.google.com/store/apps/details?id=com.smyk.app&hl=pl" target="_blank"><strong>SMYK</strong></a>{{ 'showcaseDescription.androidText2' | translate }}
+        <br> <br>
+        {{ 'showcaseDescription.androidText3' | translate }}
+        <a href="https://play.google.com/store/apps/details?id=gr.iqs.taxi_plon&hl=pl" target="_blank"><strong>TAXIPLON</strong></a>
+        {{ 'showcaseDescription.androidText4' | translate }}
+        <a href="https://play.google.com/store/apps/details?id=com.eleclerc.app&hl=pl" target="_blank"><strong>E.Leclerc</strong></a>{{ 'showcaseDescription.androidText5' | translate }}
+        <br><br>
+        {{ 'showcaseDescription.androidText6' | translate }}
+        <a href="https://github.com/VeniQs02/spo-toolkit-mobile-app" target="_blank"><strong>SpoToolkit</strong></a>
+        {{ 'showcaseDescription.androidText7' | translate }}
+      </p>
+      <pre>
+⠀⠀⠀⠀⠀⠙⢷⣤⣤⣴⣶⣶⣦⣤⣤⡾⠋⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣼⣿⣿⣉⣹⣿⣿⣿⣿⣏⣉⣿⣿⣧⠀⠀⠀⠀
+⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀
+⣠⣄⠀⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⡄⠀⣠⣄
+⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿
+⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿
+⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿
+⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿
+⠻⠟⠁⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠈⠻⠟
+⠀⠀⠀⠀⠉⠉⣿⣿⣿⡏⠉⠉⢹⣿⣿⣿⠉⠉⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⠉⠉⠀⠀⠀⠀⠉⠉⠁⠀⠀⠀⠀⠀⠀
+      </pre>
+    }
+
+
+  </div>
+}

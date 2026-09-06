@@ -1,6 +1,6 @@
 <div class="showcase-overlay">
   <p (click)="onOverlayTextClick()" class="showcase-overlay-text">
-    {{'showcaseOverlay.showcaseOverlayText1' | translate}} <span> {{'showcaseOverlay.showcaseOverlayText2' | translate}}  </span> {{'showcaseOverlay.showcaseOverlayText3' | translate}}
+    {{ 'showcaseOverlay.text1' | translate }} <span> {{ 'showcaseOverlay.text2' | translate }}  </span> {{ (isOverlayVisible ? 'showcaseOverlay.text32' : 'showcaseOverlay.text31') | translate }}
   </p>
 </div>
 

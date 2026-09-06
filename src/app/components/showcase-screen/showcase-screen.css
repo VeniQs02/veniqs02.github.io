@@ -1,6 +1,13 @@
-.showcase-screen{
+.showcase-screen {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.showcase-titles {
+  height: 80%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -8,10 +15,15 @@
 
 .showcase-title {
   display: flex;
-  /*font-size: 1.6rem;*/
+  font-size: 0.4rem;
 }
 
 .showcase-title:hover {
   color: white;
   cursor: pointer;
+}
+
+showcase-description {
+  margin: 10px 220px 160px;
+  width: 55%;
 }
