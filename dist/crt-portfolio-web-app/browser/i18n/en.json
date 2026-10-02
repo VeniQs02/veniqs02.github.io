@@ -48,7 +48,8 @@
   "showcaseDescription": {
     "angularText1": "During my studies I managed to get a one-month internship at Nekken. Once I became familiar with the project, I started implementing new functionalities to an Angular CRM webpage.",
     "angularText2": "Since then Angular has become my primary web framework, which I used in every project since. This webpage is made in Angular, just as my bachelor's thesis ",
-    "angularText3": ".",
+    "angularText3": ", or my homebrew car expences project - ",
+    "angularText4": ".",
     "javaText1": "Java has been with me since the beginning of my studies - love at the first sight. Whenever we were given a new programming assignment, our professors heard \"can we do it in Java?\"",
     "javaText2": "parallel programming",
     "javaText3": "design patterns",
